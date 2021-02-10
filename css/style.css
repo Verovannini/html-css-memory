@@ -77,8 +77,29 @@ h1{
 .card:hover .image-name{
     display: block;
 }
+
+.card.active{
+    background-image: none;
+}
+
+.card.active .image-name{
+    display: block;
+    color: #e74687;
+}
+
+.card.active img{
+    display: block;
+}
+
+.card.active:hover .image-name{
+    color: #e67a26;
+}
 /* FINE MAIN */
 
 /* FOOTER */
+footer{
+    text-align: center;
+    margin-top: 20px;
+}
 /* FINE FOOTER */
 

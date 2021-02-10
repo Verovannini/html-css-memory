@@ -1,0 +1,47 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* FINE RESET */
+
+/* COMMON */
+body{
+    font-family: 'Nerko One', cursive, sans-serif;
+    background-color: #add8e6;
+}
+
+.container{
+    width: 65%;
+    margin: auto;
+}
+/* FINE COMMON */
+
+/* HEADER */
+h1{
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 20px;
+    text-shadow: 1px 1px #9ba9ae;
+}
+/* FINE HEADER */
+
+/* MAIN */
+.row{
+    text-align: center;
+}
+
+.row .card{
+    height: 200px;
+    width: 20%;
+    background-color: red;
+    display: inline-block;
+    margin: 10px;
+}
+/* FINE MAIN */
+
+/* FOOTER */
+/* FINE FOOTER */
+

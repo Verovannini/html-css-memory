@@ -21,24 +21,61 @@ body{
 /* HEADER */
 h1{
     color: #fff;
-    font-size: 60px;
+    font-size: 80px;
     text-align: center;
     margin-top: 20px;
-    text-shadow: 1px 1px #9ba9ae;
+    text-shadow: 1px 1px #7b99a3;
 }
 /* FINE HEADER */
 
 /* MAIN */
 .row{
     text-align: center;
+    margin-top: 20px;
 }
 
 .row .card{
     height: 200px;
     width: 20%;
-    background-color: red;
+    background-color: #fff;
     display: inline-block;
     margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px #7b99a3;
+    position: relative;
+    background-image: url('../img/pattern.png');
+    background-size: contain;
+}
+
+.card img{
+    width: 90%;
+    display: block;
+    margin: auto;
+    padding-top: 10px;
+    display: none;
+}
+
+.card .image-name{
+    font-size: 30px;
+    color: #e67a26;
+    text-shadow: 1px 1px #7b99a3;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    display: none;
+}
+
+.card:hover{
+    background-image: none;
+}
+
+.card:hover img{
+    display: block;
+}
+
+.card:hover .image-name{
+    display: block;
 }
 /* FINE MAIN */
 
